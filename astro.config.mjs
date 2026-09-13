@@ -41,6 +41,12 @@ export default defineConfig({
                 { label: 'branch', slug: 'git/branch' },
                 { label: 'push / pull', slug: 'git/sync' }
               ]
+            },
+            {
+              label: 'Git commands',
+              items: [
+                { autogenerate: { directory: 'git/commands' } }
+              ]
             }
           ]
         },
@@ -51,30 +57,6 @@ export default defineConfig({
             { label: 'GitHub Actions', slug: 'github/actions' },
             { label: 'GitHub Pages', slug: 'github/pages' }
           ]
-        },
-        {
-          label: 'JavaScript',
-          items: [
-            { label: 'JavaScript 工具链', slug: 'javascript' },
-            { label: 'npm', slug: 'javascript/npm' },
-            { label: 'package.json', slug: 'javascript/package-json' },
-            { label: 'npm scripts', slug: 'javascript/npm-scripts' },
-            { label: 'lint', slug: 'javascript/lint' },
-            { label: 'test', slug: 'javascript/test' },
-            { label: 'build', slug: 'javascript/build' }
-          ]
-        },
-        {
-          label: 'DevOps',
-          items: [
-            { label: 'DevOps 概览', slug: 'devops' },
-            { label: 'CI/CD', slug: 'devops/cicd' },
-            { label: 'GitHub Actions Workflow', slug: 'devops/github-actions-workflow' }
-          ]
-        },
-        {
-          label: '学习指南（自动生成）',
-          items: [{ autogenerate: { directory: 'guides' } }]
         }
       ]
     })
