@@ -1,0 +1,87 @@
+---
+title: Markdown / MDX 写作示例
+description: 一页看懂 Starlight 常用内容语法。
+sidebar:
+  order: 1
+---
+
+import { Badge, Card, CardGrid } from '@astrojs/starlight/components';
+
+# 一级标题
+
+页面标题通常由 frontmatter 的 `title` 生成，所以正文一般从二级标题开始。
+
+## 二级标题
+
+### 三级标题
+
+普通文字可以包含 **粗体**、*斜体* 和 `inline code`。
+
+## 列表
+
+- 无序项目 A
+- 无序项目 B
+  - 嵌套项目
+
+1. 第一步
+2. 第二步
+3. 第三步
+
+## 表格
+
+| 语法 | 用途 |
+| --- | --- |
+| `**文字**` | 粗体 |
+| `` `代码` `` | 行内代码 |
+| `[文字](URL)` | 链接 |
+
+## 链接与图片
+
+[访问 Astro 官方文档](https://docs.astro.build/)。
+
+![从写作到同步的知识库工作流](/private-knowledge-base/images/knowledge-flow.svg)
+
+图片放在 `public/images/` 后，可以用 `/private-knowledge-base/images/文件名` 引用。前面的 `/private-knowledge-base` 来自 GitHub Pages 的 `base` 配置。
+
+## 代码块
+
+```js title="hello.js" {2}
+const topic = 'Astro Starlight';
+console.log(`正在学习 ${topic}`);
+```
+
+## 引用
+
+> 写知识笔记不是为了记录一切，而是为了让未来的自己更快行动。
+
+## 提示框
+
+:::note
+这是补充信息，适合读者应该知道但不紧急的内容。
+:::
+
+:::tip
+这是一个实用建议。
+:::
+
+:::caution
+这是需要谨慎处理的情况。
+:::
+
+:::danger
+这是可能造成严重后果的警告。
+:::
+
+## MDX 组件
+
+普通 `.md` 适合纯文本知识；`.mdx` 在 Markdown 中额外支持 `import` 和 JSX 组件。只有需要交互或 Starlight 组件时才用 MDX。
+
+<CardGrid>
+  <Card title="这是 MDX 卡片" icon="puzzle">
+    它来自 `@astrojs/starlight/components`。<Badge text="MDX" variant="note" />
+  </Card>
+</CardGrid>
+
+:::note[如何选择]
+大多数文章用 `.md`；需要导入组件、写 JSX 或嵌入交互内容时再用 `.mdx`。
+:::

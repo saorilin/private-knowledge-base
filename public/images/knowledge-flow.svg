@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" role="img" aria-labelledby="title desc">
+  <title id="title">知识库日常工作流</title>
+  <desc id="desc">从编写 Markdown，到本地预览、Git 提交和 GitHub 同步。</desc>
+  <rect width="760" height="180" rx="24" fill="#eef2ff"/>
+  <g font-family="system-ui,sans-serif" font-size="18" text-anchor="middle">
+    <g fill="#fff" stroke="#2457c5" stroke-width="2">
+      <rect x="35" y="58" width="145" height="64" rx="12"/>
+      <rect x="215" y="58" width="145" height="64" rx="12"/>
+      <rect x="395" y="58" width="145" height="64" rx="12"/>
+      <rect x="575" y="58" width="145" height="64" rx="12"/>
+    </g>
+    <g fill="#172033">
+      <text x="107" y="97">写 Markdown</text>
+      <text x="287" y="97">本地预览</text>
+      <text x="467" y="97">Git 提交</text>
+      <text x="647" y="97">GitHub 同步</text>
+    </g>
+    <g fill="#2457c5" font-size="26">
+      <text x="197" y="99">→</text><text x="377" y="99">→</text><text x="557" y="99">→</text>
+    </g>
+  </g>
+</svg>
