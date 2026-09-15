@@ -1,16 +1,38 @@
 ---
-title: Git 基础
-description: 理解 Git 在个人知识库中的角色。
+title: Git
+description: 学习 GitHub Actions 前需要掌握的 Git 与 GitHub 协作基础
+sidebar:
+  order: 1
 ---
 
-Git 是一个分布式版本控制系统。它会记录文件在不同时间点的状态，让你可以查看历史、比较修改或恢复旧版本。
+GitHub Actions 围绕 repository、commit、branch、push 和 pull request 工作。不了解这些对象时，很容易只会复制 workflow，却无法解释它为什么运行。
 
-## 为什么知识库也要用 Git？
+## 本板块目标
 
-知识内容本质上也是文本文件。Git 很擅长追踪 Markdown 的逐行变化，也能让本地知识库安全同步到 GitHub。
+完成本板块后，你应该能够：
 
-## 三个区域
+- 理解 working tree、staging area 和 commit
+- 创建并切换 feature branch
+- 连接远程 GitHub repository
+- 理解 `origin`、upstream tracking 和 `git push -u`
+- 区分 collaborator 与 fork 工作流
+- 解释为什么 production repository 通常保护 `main`
 
-1. 工作区：你正在编辑的文件。
-2. 暂存区：下一次提交准备包含的修改。
-3. 仓库：已经提交、拥有历史记录的版本。
+## 页面
+
+- [从本地修改到 GitHub 协作](./01-local-to-github/)
+
+## 与 CI/CD 的关系
+
+```text
+本地修改
+  → commit
+  → push / pull request
+  → GitHub event
+  → GitHub Actions workflow
+```
+
+:::tip[学习边界]
+开始 Module 1 前不需要精通 Git 内部原理，但必须知道当前在哪个 branch、推送了哪个 commit，以及 workflow 是被哪个事件触发的。
+:::
+
