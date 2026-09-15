@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "829bb0b99361b7c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "7ef7330cbe6c7859",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a06c1800e2271d4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7667ab2a417843db",
+    "type": "split",
+    "children": [
+      {
+        "id": "54f2c9153b5df779",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b7af068062194a71",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "2664a305d42b4928",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "a3d8439ba05a18a4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2a856268242fe78b",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d5fe72a18c84e74",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "707dfd672a4a5bd5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "a7e90bb6397dc08c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "9f7000f0d7c0168b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "5bb4a573efbadd0f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "54a112715ec090d5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "git/sync.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "b7af068062194a71",
+  "lastOpenFiles": [
+    "github_actions/module-1/index.md",
+    "github_actions/module-1/08-lab-review.md",
+    "github_actions/module-1/07-failures-recovery.md",
+    "github_actions/module-1/06-multiple-jobs.md",
+    "github_actions/module-1/05-contexts.md",
+    "github_actions/module-1/04-run-vs-uses.md",
+    "github_actions/module-1/02-workflow-syntax.md",
+    "github_actions/module-1/03-runner.md",
+    "github_actions/module-1/01-mental-model.md",
+    "github_actions/module-1",
+    "github_actions/Module1/index.md",
+    "github_actions/Module1/08-lab-review.md",
+    "github_actions/Module1/07-failures-recovery.md",
+    "github_actions/Module1/06-multiple-jobs.md",
+    "github_actions/Module1/05-contexts.md",
+    "github_actions/Module1/04-run-vs-uses.md",
+    "github_actions/Module1/03-runner.md",
+    "github_actions/Module1/02-workflow-syntax.md",
+    "github_actions/Module1/01-mental-model.md",
+    "github_actions/Module1/sources.md",
+    "github_actions/Module1/概念",
+    "github_actions/Module1",
+    "github_actions/新建文件夹",
+    "github_actions/概念",
+    "github_actions/pages.md",
+    "github_actions/index.md",
+    "github_actions/actions.md",
+    "github_actions",
+    "git/remote.md",
+    "git/init.md",
+    "git/branch.md",
+    "git/basics.md",
+    "git/testfiles"
+  ]
+}

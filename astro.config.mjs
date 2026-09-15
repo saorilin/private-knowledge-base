@@ -30,33 +30,11 @@ export default defineConfig({
         { label: '首页', slug: 'index' },
         {
           label: 'Git',
-          items: [
-            { label: 'Git 基础', slug: 'git' },
-            { label: '基本概念', slug: 'git/basics' },
-            { label: 'git init', slug: 'git/init' },
-            {
-              label: '分支与协作',
-              items: [
-                { label: 'remote', slug: 'git/remote' },
-                { label: 'branch', slug: 'git/branch' },
-                { label: 'push / pull', slug: 'git/sync' }
-              ]
-            },
-            {
-              label: 'Git commands',
-              items: [
-                { autogenerate: { directory: 'git/commands' } }
-              ]
-            }
-          ]
+          items: [{ autogenerate: { directory: 'git' } }],
         },
         {
-          label: 'GitHub',
-          items: [
-            { label: 'GitHub 基础', slug: 'github' },
-            { label: 'GitHub Actions', slug: 'github/actions' },
-            { label: 'GitHub Pages', slug: 'github/pages' }
-          ]
+          label: 'GitHub-Actions',
+          items: [{ autogenerate: { directory: 'github-actions' } }],
         }
       ]
     })
