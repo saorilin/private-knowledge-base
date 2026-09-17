@@ -11,10 +11,14 @@
             "id": "9a06c1800e2271d4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "github-actions/index.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "index"
             }
           }
         ]
@@ -182,8 +186,24 @@
       "bases:新建数据库": false
     }
   },
-  "active": "b7af068062194a71",
+  "active": "9a06c1800e2271d4",
   "lastOpenFiles": [
+    "github-actions/module-4/index.md",
+    "github-actions/questions/github-output-levels.md",
+    "github-actions/questions",
+    "github-actions/Questions/github-output-levels.md",
+    "github-actions/Questions",
+    "github-actions/新建文件夹",
+    "github-actions/module-5",
+    "github-actions/module-3/index.md",
+    "github-actions/module-4/Environment.md",
+    "Pasted image 20260917160947.png",
+    "github-actions/module-4/events-api-ci-evidence-pipeline-practice.md",
+    "github-actions/module-4/Secrets.md",
+    "github-actions/module-3/Job Artifacts.md",
+    "github-actions/module-4/Variables.md",
+    "github-actions/module-3/Job Outputs.md",
+    "github-actions/module-3/Dependency Caching.md",
     "github_actions/module-1/index.md",
     "github_actions/module-1/08-lab-review.md",
     "github_actions/module-1/07-failures-recovery.md",
@@ -200,22 +220,10 @@
     "github_actions/Module1/06-multiple-jobs.md",
     "github_actions/Module1/05-contexts.md",
     "github_actions/Module1/04-run-vs-uses.md",
-    "github_actions/Module1/03-runner.md",
-    "github_actions/Module1/02-workflow-syntax.md",
-    "github_actions/Module1/01-mental-model.md",
-    "github_actions/Module1/sources.md",
     "github_actions/Module1/概念",
     "github_actions/Module1",
     "github_actions/新建文件夹",
     "github_actions/概念",
-    "github_actions/pages.md",
-    "github_actions/index.md",
-    "github_actions/actions.md",
-    "github_actions",
-    "git/remote.md",
-    "git/init.md",
-    "git/branch.md",
-    "git/basics.md",
-    "git/testfiles"
+    "github_actions"
   ]
 }
